@@ -1,0 +1,125 @@
+.user-wrapper{
+    margin: 100px;
+    display: flex;
+    gap: 100px;
+}
+
+.username{
+    font-family: var(--second-family);
+    font-weight: 900;
+    font-size: 48px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: #fff;
+}
+
+.number-of-bonuses-block{
+display: flex;
+justify-content: space-between;
+}
+
+.bonuses{
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #d91567;
+    width: 180px;
+}
+
+.number{
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 32px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #d91567;
+}
+
+.form-label{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+}
+
+.form-input{
+    border-bottom: 1px solid #fff;
+    width: 400px;
+}
+
+input[type = "submit"].form-submit{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    width: 110px;
+    height: 40px;
+    background: #d91567;
+}
+
+.profile-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.history{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    width: 145px;
+    height: 40px;
+    background: #d91567;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 15px;
+    width: 400px
+}
+
+.comment-create{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+}
+
+textarea{
+    border-radius: 10px;
+    width: 400px;
+    height: 100px;    
+    background: rgba(255, 255, 255, 0.5);
+}
+
+input[type = "submit"].form-send{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;    
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    background: #d91567;
+}
+
+.user-block{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}

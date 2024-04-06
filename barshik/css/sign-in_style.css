@@ -1,0 +1,55 @@
+.header-main-block{
+    border-radius: 50px;
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    background: rgba(13, 178, 149, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.form-label{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+}
+
+.form-input{
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    background: #fff;
+}
+
+.header-title{
+    font-size: 36px;
+}
+
+.sign-in-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input[type = "submit"]{
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #fff;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    color: #0db295;
+}
+
+.forgot-btn{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    color: #2f2f2f;  
+    margin: 0 auto; 
+}
