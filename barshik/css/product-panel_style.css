@@ -1,0 +1,76 @@
+/* table{
+ color: #fff;
+ margin: 100px 0;
+}
+
+
+td{
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 114%;
+    color: #fff;
+    padding: 40px;
+    
+}
+
+th{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;  
+    padding: 40px;
+
+} */
+
+table {
+    margin: 50px 0 0 50px;
+	width: 50%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+    color: #dddddd;
+}
+table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+    color: black;
+}
+table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
+
+.create_product{
+    background-color:rgba(13, 178, 149, 0.4);
+    color: #dddddd;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 300px;
+    padding: 20px;
+    margin: 50px 0 0 50px;
+    font-size: 20px;
+}
+.create_product input{
+    background-color: #dddddd;
+    color: black;
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.create_product textarea{
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #efefef;
+}
+
+.create_product input[type = "submit"]{
+    color:rgba(13, 178, 149, 1);
+    font-weight: 700;
+}

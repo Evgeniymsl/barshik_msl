@@ -45,7 +45,7 @@ header{
 .header-title{
     font-family: var(--second-family);
     font-weight: 900;
-    font-size: 96px;
+    font-size: 72px;
     text-align: center;
     color: #fff;
     width: 540px;
@@ -54,7 +54,7 @@ header{
 .header-desc{
     font-family: var(--second-family);
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 128%;
     text-align: center;
     color: #fff;
@@ -64,12 +64,16 @@ header{
 .header-btn{
     font-family: var(--second-family);
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
+    padding: 15px 25px;
     color: #fff;
     border-radius: 50px;
-    width: 300px;
-    height: 75px;
+    /* width: 300px;
+    height: 75px; */
     background: #0db296;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* footer */
